@@ -34,25 +34,6 @@ This assignment demonstrates:
 
 ---
 
-## 📂 Project Structure
-
-assignment-2/
-├── public/
-├── src/
-│ ├── components/
-│ │ ├── UserCard.js
-│ │ └── EditUserModal.js
-│ ├── App.js
-│ ├── App.css
-│ └── index.js
-├── package.json
-└── README.md
-
-yaml
-Copy code
-
----
-
 ## 🔧 Tech Stack
 
 - ReactJS (Functional Components + Hooks)
