@@ -1,35 +1,122 @@
-# ReactJS Assignment 1 – User Profile Viewer
+# 👨‍💻 ReactJS Assignment 2 – Advanced User Profile App
 
-This is a ReactJS frontend application developed as part of the React Developer Assignment for SimplyFI. The app displays profile information of 10 users fetched from a public API, including avatar, name, email, phone, address, website, and company name.
+This is a ReactJS frontend assignment project built for testing proficiency with modern React features, component design, and the Ant Design UI framework.
 
-## 📸 Demo
+## 🚀 Live Demo
 
-**Live Demo**: [https://react-assignment-1-five-snowy.vercel.app/]
-**GitHub Repo**: [https://github.com/Shivaprasad-webdev/react-assignment-1]
+[View Deployed App](https://assignment-2-livid-pi.vercel.app/)
 
-## 🚀 Features
 
-- Fetches user data from `https://jsonplaceholder.typicode.com/users`
-- Generates unique avatar images for each user using DiceBear Avatars API
-- Displays user profiles in styled cards
-- Shows loading spinner while data is being fetched
-- Responsive layout (Desktop-only as per assignment instructions)
+## 📌 Assignment Objectives
 
----
+This assignment demonstrates:
 
-## 📦 Tech Stack
-
-- **ReactJS**
-- **Bootstrap 4** (or your preferred CSS framework)
-- **Fetch API**
-- **DiceBear Avatars**
-- **SpinKit** (for loading spinner)
+- Building a responsive user profile UI using **React** and **Ant Design**
+- Fetching data from an external REST API
+- Creating reusable components (`UserCard`, `EditUserModal`)
+- Working with forms and controlled components
+- Using **state lifting**, **conditional rendering**, and **event handling**
+- Implementing "Like" and "Delete" functionality per user
 
 ---
 
-## 🧪 How to Run Locally
+## 🧠 Features Implemented
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/your-username/react-assignment-1.git
-   cd react-assignment-1
+✅ Fetch user data from `https://jsonplaceholder.typicode.com/users`  
+✅ Display user details in responsive Ant Design cards  
+✅ Dynamically load avatar images using DiceBear API  
+✅ Like/unlike a user (with toggle state)  
+✅ Delete a user (removes from list)  
+✅ Edit user details via modal with Ant Design Form  
+✅ Responsive grid layout using Ant Design's `Row` and `Col`  
+✅ Loading spinner while fetching data  
+✅ Styled using Ant Design components and custom CSS
+
+---
+
+## 📂 Project Structure
+
+assignment-2/
+├── public/
+├── src/
+│ ├── components/
+│ │ ├── UserCard.js
+│ │ └── EditUserModal.js
+│ ├── App.js
+│ ├── App.css
+│ └── index.js
+├── package.json
+└── README.md
+
+yaml
+Copy code
+
+---
+
+## 🔧 Tech Stack
+
+- ReactJS (Functional Components + Hooks)
+- [Ant Design](https://ant.design) UI Library
+- Fetch API for HTTP requests
+- DiceBear Avatars API
+- Vercel for deployment
+
+---
+
+## 🛠 Installation & Setup
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/react-assignment-2.git
+cd react-assignment-2
+
+# Install dependencies
+npm install
+
+# Run the app locally
+npm start
+📦 Build & Deploy
+bash
+Copy code
+# Build the React app
+npm run build
+
+# Deploy with Vercel (if using Vercel CLI)
+vercel
+🤖 API Used
+User Data
+URL: https://jsonplaceholder.typicode.com/users
+
+Avatars
+URL: https://api.dicebear.com/9.x/avataaars/svg?seed=<username>&mood=happy
+
+📸 Screenshots
+(Add screenshots here if required in submission)
+
+🧑‍💻 Author
+Name: Your Full Name
+
+Email: youremail@example.com
+
+GitHub: yourusername
+
+📜 License
+This project is licensed for evaluation purposes only.
+
+yaml
+Copy code
+
+---
+
+## 📝 What You Should Do:
+
+1. Replace placeholders:
+   - `yourusername`
+   - `youremail@example.com`
+   - `yourdeploymenturl.vercel.app`
+2. Add screenshots if required.
+3. Save this file as: `README.md` in your project root.
+
+---
+
+Would you like me to generate a version with **screenshots or badges**? Or a `LICENSE` file too?
