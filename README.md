@@ -48,7 +48,7 @@ This assignment demonstrates:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/react-assignment-2.git
+git clone [https://github.com/Shivaprasad-webdev/assignment_2]
 cd react-assignment-2
 
 # Install dependencies
@@ -70,34 +70,3 @@ URL: https://jsonplaceholder.typicode.com/users
 
 Avatars
 URL: https://api.dicebear.com/9.x/avataaars/svg?seed=<username>&mood=happy
-
-📸 Screenshots
-(Add screenshots here if required in submission)
-
-🧑‍💻 Author
-Name: Your Full Name
-
-Email: youremail@example.com
-
-GitHub: yourusername
-
-📜 License
-This project is licensed for evaluation purposes only.
-
-yaml
-Copy code
-
----
-
-## 📝 What You Should Do:
-
-1. Replace placeholders:
-   - `yourusername`
-   - `youremail@example.com`
-   - `yourdeploymenturl.vercel.app`
-2. Add screenshots if required.
-3. Save this file as: `README.md` in your project root.
-
----
-
-Would you like me to generate a version with **screenshots or badges**? Or a `LICENSE` file too?
